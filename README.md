@@ -1,4 +1,4 @@
-<!-- Get NAS by pasting 2 commands to Startup Applications. Drop stuff in your Public folder, it'll be saved by your NAS--another normal computer with a normal OS. Runs in background. No systemd. -->
+<!-- Get NAS by pasting 2 commands to Startup Applications. Runs in background. Drop stuff in your Public folder, it'll be saved by your NAS--another normal computer with a normal OS. No systemd. -->
 
 * **Your computer**<br>
 Paste this command to Startup apps, restart:<br>
