@@ -1,11 +1,11 @@
 <!-- Get NAS by pasting 1 command to Startup Applications. Drop stuff in your Public folder, it'll be saved by your NAS--a normal computer with a normal OS, and no systemd! -->
 
 * **Your computer**<br>
-Paste this command in Startup Applications, then restart:<br>
+Paste this command in Startup apps, restart:<br>
 `sh -c "python3 -m http.server 8000 -d ~/Public"`
 
 * **NAS computer**<br>
-Paste this command in Startup Applications, replace "hostname" with the hostname of YOUR computer, then restart:<br>
+Paste this command in Startup apps, replace "hostname" with the hostname of YOUR computer, restart:<br>
 `sh -c "while :; do wget -m -np -N -R 'index.html*' hostname.local:8000/; sleep 10; done"`
 
 <br>
