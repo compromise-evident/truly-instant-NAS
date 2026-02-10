@@ -1,6 +1,6 @@
 YOUR COMPUTER
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-       python3 -m http.server 8000                  opens your computer's files your network, like home WiFi. (Only those who are connected to your WiFi can see those files.)
+       python3 -m http.server 8000                  opens your computer's files to your network, like home WiFi. (Only those who are connected to your WiFi can see those files.)
        python3 -m http.server 8000 -d ~/Public      opens ONLY your Public folder to the local network. (Again, only those who are connected to your WiFi can see that folder.) This is the line used by this NAS tool!
 sh -c "python3 -m http.server 8000 -d ~/Public"     wrapping things in sh -c "" turns it into a program.
 
