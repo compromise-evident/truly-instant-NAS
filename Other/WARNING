@@ -1,0 +1,5 @@
+To improve privacy, use ethernet cables rather than WiFi.
+
+Never run this or the "http.server" commands on public WiFi or on networks you don't trust!
+
+http.server means you should NEVER use this NAS to save sensitive data, but only backups that you wouldn't mind a judge reading through.
